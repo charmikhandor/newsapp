@@ -3,15 +3,10 @@ import News from "./components/News";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
-export default class App extends Component {
-  state = {
-    progress: 0,
-  };
+const App =()=>{
+  
+  const [progress, setProgress] = useState(0)
 
-  setProgress = (progress) => {
-    this.setState({ progress: progress });
-  };
-  render() {
     return (
       <div>
         <Router>
@@ -114,4 +109,5 @@ export default class App extends Component {
       </div>
     );
   }
-}
+
+  export default App;

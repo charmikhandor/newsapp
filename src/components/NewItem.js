@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const NewItem = (props) => {
   let { title, description, imageUrl, newsUrl, author, date } = props;
