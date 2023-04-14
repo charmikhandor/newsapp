@@ -4,11 +4,11 @@ import Spinner from "./Spinner";
 import PropTypes from "prop-types";
 
 export default class News extends Component {
-  static defaultProps = {
-    country: "in",
-    pageSize: 20,
-    category: "general",
-  };
+  // static defaultProps = {
+  //   country: "in",
+  //   pageSize: 20,
+  //   category: "general",
+  // };
   // static propTypes = {
   //   country: PropTypes.string,
   //   category: PropTypes.string,
