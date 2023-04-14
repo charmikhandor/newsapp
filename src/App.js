@@ -18,7 +18,7 @@ export default class App extends Component {
                 <News
                   key="general"
                   country="in"
-                  pageSize="20"
+                  pageSize={8}
                   category="general"
                 />
               }
@@ -30,7 +30,7 @@ export default class App extends Component {
                 <News
                   key="business"
                   country="in"
-                  pageSize="20"
+                  pageSize={8}
                   category="business"
                 />
               }
@@ -42,7 +42,7 @@ export default class App extends Component {
                 <News
                   key="sports"
                   country="in"
-                  pageSize="20"
+                  pageSize={8}
                   category="sports"
                 />
               }
@@ -54,7 +54,7 @@ export default class App extends Component {
                 <News
                   key="entertainment"
                   country="in"
-                  pageSize="20"
+                  pageSize={8}
                   category="entertainment"
                 />
               }
@@ -66,7 +66,7 @@ export default class App extends Component {
                 <News
                   key="health"
                   country="in"
-                  pageSize="20"
+                  pageSize={8}
                   category="health"
                 />
               }
@@ -78,7 +78,7 @@ export default class App extends Component {
                 <News
                   key="science"
                   country="in"
-                  pageSize="20"
+                  pageSize={8}
                   category="science"
                 />
               }
@@ -90,7 +90,7 @@ export default class App extends Component {
                 <News
                   key="technology"
                   country="in"
-                  pageSize="20"
+                  pageSize={8}
                   category="technology"
                 />
               }
